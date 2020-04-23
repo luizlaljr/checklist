@@ -1,4 +1,4 @@
-package com.example.checklist
+package br.com.luizlaljr.checklist
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
