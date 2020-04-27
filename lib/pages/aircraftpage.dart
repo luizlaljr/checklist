@@ -24,6 +24,10 @@ class AircraftPage extends StatelessWidget {
               title: Text(
                 project.aircrafts[index].title,
                 textScaleFactor: 1.2,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blueGrey[400],
+                )
               ),
               onTap: () {
                 Navigator.push(

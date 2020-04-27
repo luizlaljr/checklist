@@ -27,6 +27,10 @@ class ProjectPage extends StatelessWidget {
               title: Text(
                 projects[index].title,
                 textScaleFactor: 1.2,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blueGrey[400],
+                )
               ),
               onTap: () {
                 Navigator.pushReplacement(

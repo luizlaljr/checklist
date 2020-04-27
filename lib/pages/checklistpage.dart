@@ -28,6 +28,10 @@ class CheckListPage extends StatelessWidget {
               title: Text(
                 aircraft.checklists[index].title,
                 textScaleFactor: 1.2,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blueGrey[400],
+                )
               ),
               onTap: () {
                 Navigator.push(

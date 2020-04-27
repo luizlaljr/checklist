@@ -3,7 +3,7 @@ import 'package:checklist/utils/createaircrafts.dart';
 
 List<Project> createProjects(){
   final String c99a = "C-99A";
-  final String c97a = "C-97A";
+  final String c97 = "C-97";
 
   List<Project> projects = List();
 
@@ -28,8 +28,8 @@ List<Project> createProjects(){
   ));
 
   projects.add(new Project(
-    title: c97a,
-    aircrafts: createAircrafts(c97a, aircraftsNineSeven),
+    title: c97,
+    aircrafts: createAircrafts(c97, aircraftsNineSeven),
     image: "assets/images/c97.jpg",
   ));
 
